@@ -21,12 +21,14 @@ performed on a machine with a Intel Core 3.30GHzx4 CPU and a GeForce GTX 2080 Ti
 learning rate=<!-- -->1e-4, and training epochs=<!-- -->200. Our
 hyperparameters *λ*s are selected using grid search from
 {1*e*<sup> − 4</sup>, 1*e*<sup> − 3</sup>, 1*e*<sup> − 2</sup>,
-1*e*<sup> − 1</sup>, 1*e*<sup>0</sup>, 1*e*<sup>1</sup>}. The optimal
-setting has *λ*<sub>*x*, *z*</sub> = 1*e*<sup>1*e* − 1</sup>,
+1*e*<sup> − 1</sup>, 1*e*<sup>0</sup>, 1*e*<sup>1</sup>}. 
+The optimal
+setting has *λ*<sub>*x*, *z*, *1*</sub> = 1*e*<sup>−1</sup>,
+ *λ*<sub>*x*, *z*, *2*</sub> = 1*e*<sup>−5</sup>,
 *λ*<sub>∥.∥</sub> = 1*e*<sup>0</sup>,
 *λ*<sub>*z*, *c*</sub> = 1*e*<sup>0</sup>,
-*λ*<sub>*F*</sub> = 1*e*<sup>1</sup>, *λ*<sub>*x*, *x̂*</sub> = 1*e*0,
-$\\Ls\_{entropy}=1e^{-1}$.
+*λ*<sub>*F*</sub> = 1*e*<sup>1</sup>, *λ*<sub>*x*, *x̂*</sub> = 1*e*<sup>0</sup>,
+*λ*<sub>*Entropy*</sub>=1*e*-1.
 
 **Baselines.** For the autoencoder based methods including DEC, IDEC, DCN and HC, we utilize the same autoencoder backbone, mini-batch, learning rate, and training epoch as those of our method for fair comparison. Their hyerparamters for loss objectives other than the autoencoder based losses are selected from same grid. For AG, GMM, KM++ and CKM, we employ their default hyperparameter selection process built into the algorithms.
 
