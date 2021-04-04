@@ -29,3 +29,7 @@ setting has *λ*<sub>*x*, *z*</sub> = 1*e*<sup>1*e* − 1</sup>,
 $\\Ls\_{entropy}=1e^{-1}$.
 
 **Baselines.** For the autoencoder based methods including DEC, IDEC, DCN and HC, we utilize the same autoencoder backbone, mini-batch, learning rate, and training epoch as those of our method for fair comparison. Their hyerparamters for loss objectives other than the autoencoder based losses are selected from same grid. For AG, GMM, KM++ and CKM, we employ their default hyperparameter selection process built into the algorithms.
+
+## Comparing with the CKM phenotypes
+_Figure 1. Boxplots for the limited features from our method in our clusters versus in clusters from CKM. Our method has white background while CKM has yellow background._
+![Alt text](figs/clusters.png?raw=true "demographics")
