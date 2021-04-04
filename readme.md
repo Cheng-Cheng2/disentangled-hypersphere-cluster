@@ -28,4 +28,4 @@ setting has *λ*<sub>*x*, *z*</sub> = 1*e*<sup>1*e* − 1</sup>,
 *λ*<sub>*F*</sub> = 1*e*<sup>1</sup>, *λ*<sub>*x*, *x̂*</sub> = 1*e*0,
 $\\Ls\_{entropy}=1e^{-1}$.
 
-**Baselines.** For the autoencoder based methods including DEC, IDEC, DCN and HC, we utilize the same autoencoder backbone, mini-batch, learning rate, and training epoch as those of our method for fair comparison. Their~hyerparamters for loss objectives other than the autoencoder based losses are selected from same grid. For AG, GMM, KM++ and CKM, we employ their default hyperparameter selection process built into the algorithms.
+**Baselines.** For the autoencoder based methods including DEC, IDEC, DCN and HC, we utilize the same autoencoder backbone, mini-batch, learning rate, and training epoch as those of our method for fair comparison. Their hyerparamters for loss objectives other than the autoencoder based losses are selected from same grid. For AG, GMM, KM++ and CKM, we employ their default hyperparameter selection process built into the algorithms.
