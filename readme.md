@@ -10,7 +10,7 @@ the first 6 hours after encounter start time.
 **Preprocessing.** Variables with higher than 90\% missingness as well as pure string variables and dates are excluded.  Categorical variables are one-hot encoded and numerical values are normalized. Missing data are inferred by predictive mean matching, a classic algorithm for imputation. Table 1 contains the full features provided to our model and the outcome (mortality during encounter) for evaluation after training.
 
 
-_Table 1. Demographics table includes summary characteristics of SENECA sepsis data. Features omitted from the
+_Table 1. Summary characteristics of SENECA sepsis data. Features omitted from the
 table include the one-hot encodings of the admission hospitals._
 ![Alt text](figs/demographics.png?raw=true "demographics")
 
